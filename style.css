@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+   
+}
+.container{
+display: flex;
+flex-direction: column;
+gap: 15px;
+color: white;
+background-color: rgb(59, 59, 59);
+border-radius: 20px;
+padding: 10px;
+align-items: center;
+
+
+}
+input{
+    border-radius: 10px;
+    height: 30px;
+    width: 80%;
+}
+button{
+    width: 40%;
+    color: black;
+    background-color: yellow;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+button:hover{
+    background-color: orange;
+
+}
+button:active{
+    transform: translateY(5px);
+}
+p{
+    color:chartreuse;
+
+}
+
+/*https://ih1.redbubble.net/image.2431860322.6971/flat,750x,075,f-pad,750x1000,f8f8f8.jpg
